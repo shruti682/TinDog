@@ -1,0 +1,168 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#title{
+    background-color: #ff4c68;
+    color:white;
+}
+h1{
+    font-weight:800;
+    font-size: 3.5em;
+    line-height: 1.5;
+}
+.container-fluid{
+padding:3% 15% 10% 15%;
+}
+h2{
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-weight:800;
+}
+p{
+    color:#8f8f8f;
+}
+
+/* navigation bar */
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+     font-family: 'Ubuntu';   
+     font-weight: bold;
+     font-size: 2.5rem;
+}
+
+.nav-item
+{
+    padding:0 18px;
+}
+
+.container{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/* download button */
+
+.download-button{
+    margin:5% 3% 5% 0%;
+}
+
+/* phone image */
+
+.phone-img{
+    width: 24%;
+    transform: rotate(25deg);
+    position:absolute;
+    right: 20%;
+}
+
+/* features section */
+
+#features{
+    padding:7% 15%;
+    background-color: white;
+    position: relative;
+}
+
+.feature-box{
+    padding:5%;
+    text-align: center;
+}
+
+.icon{
+    color:#ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+.icon1{
+    margin-bottom: 13px;
+}
+
+/* testimonials */
+
+#testimonials{
+    
+    background-color:#ef8172;
+    text-align: center;
+    color:white;
+}
+
+.testimonial-image{
+    width:10%;
+    border-radius: 100%;
+    margin:20px;
+}
+
+.carousel-item{
+    padding:7% 15%;
+}
+
+/* press */
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width:15%;
+    margin:20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing{
+    padding:100px;
+    text-align: center;
+}
+
+.pricing-coloumn{
+    padding:3% 2%;
+}
+
+/* CTA section */
+
+#cta{
+    background-color: #ff4c68;
+    color: white;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading{
+    font-weight:800;
+    font-size: 3.5em;
+    line-height: 1.5;
+}
+
+/* Footer section */
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon{
+    padding: 20px 10px;
+}
+@media (max-width: 990px){
+    #title{
+        text-align: center;
+    }
+    .phone-img{
+        width: 60%;
+        position: static;
+        transform: rotate(0);
+    }
+}
